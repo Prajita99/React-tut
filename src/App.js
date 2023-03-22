@@ -45,7 +45,7 @@ function App() {
             noValidate
             autoComplete="off"
           >
-            <TextField 
+            <TextField
               value={name}
               onChange={(event) => setName(event.target.value)}
               id="outlined-basic"
@@ -65,7 +65,7 @@ function App() {
             <AddIcon />
           </Button>
         </div>
-
+        <b style={{ flex: 1, justifyContent: 'center', alignItems:"center", lineHeight:"100px"}}> Hello. Saw you in facebook. Thought best way to introduce myself is by sending the PR even though my Github is trash </b>
       {/* Data Section */}
         <div className="data">
           <div className="data_val">
